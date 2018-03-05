@@ -1,0 +1,12 @@
+{
+  "id": "zalo",
+  "name": "zalo",
+  "version": "1.0.0",
+  "description": "Zalo",
+  "main": "index.js",
+  "author": "Johnny Bui <contact@phucbui.me>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://chat.zalo.me/"
+  }
+}
