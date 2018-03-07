@@ -2,11 +2,10 @@ module.exports = (Franz) => {
   function getMessages() {
     let count = 0;
 
-    // Get main tab element and count notification badge
-    const mainTabElement = document.querySelector('#main-tab');
+    const conversationListElement = document.querySelector('#conversationListId');
 
-    if (mainTabElement) {
-      count = mainTabElement.querySelectorAll('img.tab-red-dot').length;
+    if (conversationListElement) {
+      count = conversationListElement.querySelectorAll('img.func-unread').length;
     }
 
     Franz.setBadge(count);
